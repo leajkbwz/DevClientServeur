@@ -1,0 +1,31 @@
+.container {
+    margin: 20px;
+}
+
+.task-form input {
+    margin-right: 10px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.chat-list {
+    list-style: none;
+    padding: 0;
+}
+
+.chat-list li {
+    margin: 5px 0;
+}
+
+button {
+    margin-left: 10px;
+}
