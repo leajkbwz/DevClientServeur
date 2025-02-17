@@ -1,35 +1,36 @@
-# Task Manager
+Gestionnaire de Tâches
 
-## Description
-This is a collaborative task management system that allows users to create, update, assign, and delete tasks. It also includes a real-time chat feature where users can discuss tasks.
+Description
+Il s'agit d'un système de gestion de tâches collaboratif permettant aux utilisateurs de créer, modifier, assigner et supprimer des tâches. Il inclut également une fonctionnalité de chat en temps réel pour discuter des tâches.
 
-## Features
-- Create, edit, and delete tasks.
-- Assign tasks to users.
-- View tasks in a dynamic list.
-- Chat in real-time about tasks.
+Fonctionnalités
 
-## Tech Stack
-- **Frontend**: React, Axios, WebSocket
-- **Backend**: Node.js, Express, MongoDB, Socket.io
-- **Authentication**: JWT (JSON Web Token)
-- **Database**: MongoDB
+Créer, modifier et supprimer des tâches.
+Assigner des tâches à des utilisateurs.
+Afficher les tâches dans une liste dynamique.
+Discuter en temps réel à propos des tâches.
 
-## Installation
+Pile Technologique
+Frontend : React, Axios, WebSocket
+Backend : Node.js, Express, MongoDB, Socket.io
+Authentification : JWT (JSON Web Token)
+Base de données : MongoDB
 
-### Backend
-1. Clone the backend repository.
-2. Run `npm install` to install the required dependencies.
-3. Create a `.env` file in the root of the backend folder and add your MongoDB connection URI as well as a secret key for JWT.
-4. Run `npm start` to start the server on `http://localhost:5000`.
+Installation
 
-### Frontend
-1. Clone the frontend repository.
-2. Run `npm install` to install the required dependencies.
-3. Run `npm start` to start the React development server on `http://localhost:3000`.
+Backend
+Cloner le dépôt du backend.
+Exécuter npm install pour installer les dépendances requises.
+Créer un fichier .env à la racine du dossier backend et y ajouter l'URI de connexion à MongoDB ainsi qu'une clé secrète pour JWT.
+Exécuter npm start pour démarrer le serveur sur http://localhost:5000.
 
-## Running Tests
-To run tests for the frontend, use the following command:
+Frontend
+Cloner le dépôt du frontend.
+Exécuter npm install pour installer les dépendances requises.
+Exécuter npm start pour démarrer le serveur de développement React sur http://localhost:3000.
+Exécution des tests
+
+Pour exécuter les tests du frontend, utilisez la commande suivante :
 
 ```bash
 npm test
